@@ -1,0 +1,8 @@
+static:
+    home:
+        name: ""
+        title:
+            en: "A blog of technological pursuits"
+        body:
+            en: "Random babblings within!"
+

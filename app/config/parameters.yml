@@ -1,0 +1,28 @@
+parameters:
+
+    locale: en
+    locales: [en, de]
+    secret: lk23j5lk235nhl23jfom3fo9jf3s9fs09jf3wf387hf3g87f4g7676gf3kjhkjkjhkjhgeshgkj
+
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: ~
+    database_name: tobd
+    database_user: root
+    database_password: arachnid
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    phpcr_backend:
+        type: doctrinedbal
+        connection: doctrine.dbal.default_connection
+# Enable these lines to use file system caching for the storage API
+#        caches:
+#            meta: liip_doctrine_cache.ns.meta
+#            nodes: liip_doctrine_cache.ns.nodes
+    phpcr_workspace: default
+    phpcr_user: admin
+    phpcr_pass: admin
