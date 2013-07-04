@@ -25,6 +25,8 @@
         "doctrine/phpcr-bundle": "1.0.*",
         "doctrine/doctrine-bundle": "1.2.*",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "doctrine/migrations": "dev-master",
+        "doctrine/doctrine-migrations-bundle": "dev-master",
         "liip/functional-test-bundle": "dev-master",
         "lunetics/locale-bundle": "2.2.*",
         "liip/doctrine-cache-bundle": "1.0.*",
